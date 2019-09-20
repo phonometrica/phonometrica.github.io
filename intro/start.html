@@ -133,10 +133,9 @@ files.</p>
 <p>Phonometrica lets you import metadata from a tab-separated file. The file must have the following structure:</p>
 <ul class="simple">
 <li>the first line must be a header: the first field is ignored, and the following fields correspond to property categories.</li>
-<li>the first column must contain the name of file to which we want to add metadata, and the following properties are values for the</li>
+<li>the first column must contain the name of file to which we want to add metadata, and the following properties are values for the corresponding categories. Cells can be left empty for files files which doesn’t have a certain property.</li>
+<li>the separator must be the tabulation character</li>
 </ul>
-<p>corresponding categories. Cells can be left empty for files files which doesn’t have a certain property.
-* the separator must be the tabulation character</p>
 <p>The cells in the first column represent file names, as they are normally displayed by your operating system. For instance,
 if you want to tag the file <code class="docutils literal notranslate"><span class="pre">C:\Test\loc1f26.wav</span></code>, i.e. a file named <code class="docutils literal notranslate"><span class="pre">loc1f26.wav</span></code> located in a directory named
 <code class="docutils literal notranslate"><span class="pre">Test</span></code> on the <code class="docutils literal notranslate"><span class="pre">C:</span></code> drive (on Windows), you should only provide <code class="docutils literal notranslate"><span class="pre">loc1f26.wav</span></code> as the file name. (Bear in mind that matching
